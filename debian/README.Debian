@@ -1,0 +1,7 @@
+molden for Debian
+-----------------
+
+This tarball's package has been renamed in order to make it compatible with 
+Debian Policy.
+
+ -- Muammar El Khatib <muammarelkhatib@gmail.com>  Mon, 01 Sep 2008 13:30:57 -0430

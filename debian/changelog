@@ -1,0 +1,26 @@
+molden (5.4-1) unstable; urgency=medium
+
+  * New upstream version.
+
+ -- Muammar El Khatib <muammar@proyectociencia.org>  Fri, 11 Dec 2015 14:34:41 +0100
+
+molden (5.1-1) unstable; urgency=medium
+
+  * New upstream version.
+
+ -- Muammar El Khatib <muammar@proyectociencia.org>  Tue, 09 Sep 2014 17:02:34 +0200
+
+molden (4.8-1) unstable; urgency=low
+
+  * New upstream version.
+  * Change of email address.
+  * Bumped Standards-Version to 3.8.3.
+  * README.source file has been added.
+
+ -- Muammar El Khatib <muammar@proyectociencia.org>  Fri, 20 Nov 2009 19:03:51 -0430
+
+molden (4.7-1) unstable; urgency=low
+
+  * Initial release.
+
+ -- Muammar El Khatib <muammarelkhatib@gmail.com>  Wed, 15 Apr 2009 17:01:09 -0430

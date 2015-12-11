@@ -1,0 +1,26 @@
+#! /bin/sh /usr/share/dpatch/dpatch-run
+## 01_main_makefile.dpatch by  <muammar@obey.cantv.net>
+##
+## All lines beginning with `## DP:' are a description of the patch.
+## DP: A patch for the makefie
+
+@DPATCH@
+
+--- molden-4.7/makefile	2009-04-14 19:59:58.000000000 -0430
++++ makefile	2009-04-14 20:27:29.000000000 -0430
+@@ -42,14 +42,14 @@
+ #
+ 
+ CFLAGS = -c -I/usr/X11R6/include -DDOBACK -DHASTIMER -DCOLOR_OFFSET=0.0
+-FC = g77
+-#FC = gfortran
++#FC = g77
++FC = gfortran
+ FFLAGS =
+ LIBS =  -L/usr/X11R6/lib -lX11 -lm
+ LDR = ${FC}
+ 
+ # 64 bit machines:
+-#LIBS =  -L/usr/X11R6/lib64 -lX11 -lm
++LIBS =  -L/usr/X11R6/lib64 -lX11 -lm
+ #

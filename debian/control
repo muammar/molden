@@ -1,0 +1,18 @@
+Source: molden
+Section: science
+Priority: extra
+Maintainer: Muammar El Khatib <muammar@proyectociencia.org>
+Build-Depends: debhelper (>= 7), gfortran, libxmu-dev, libxmuu-dev, xutils-dev, freeglut3-dev, dpatch, gcc-4.9, vim
+Standards-Version: 3.8.3
+Homepage: http://www.cmbi.ru.nl/molden/
+
+Package: molden
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: a processing molecular and electronic program
+ .
+ Molden is a package for displaying Molecular Density from the Ab Initio
+ packages GAMESS-UK , GAMESS-US and GAUSSIAN and the Semi-Empirical packages
+ Mopac/Ampac, it also supports a number of other programs via the Molden Format.
+ Molden reads all the required information from the GAMESS / GAUSSIAN
+ outputfile.
