@@ -2,7 +2,7 @@ Source: molden
 Section: science
 Priority: extra
 Maintainer: Muammar El Khatib <muammar@proyectociencia.org>
-Build-Depends: debhelper (>= 7), gfortran, libxmu-dev, libxmuu-dev, xutils-dev, freeglut3-dev, dpatch, gcc-4.9, vim
+Build-Depends: debhelper (>= 7), gfortran, libxmu-dev, libxmuu-dev, xutils-dev, freeglut3-dev, dpatch, gcc-5, vim
 Standards-Version: 3.8.3
 Homepage: http://www.cmbi.ru.nl/molden/
 
